@@ -18,7 +18,7 @@ Also supports currying.
 Pass a number of times to loop as the second argument. Loop until `false` is returned by using a negative number.
 
 ```js
-import Yl from 'yl'
+import Yl from 'yl-while'
 
 // generate a random number over 50
 let num = Yl(i => {
