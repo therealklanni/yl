@@ -1,6 +1,6 @@
 {
   "name": "yl-while",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Functional, curry-able loops",
   "main": "lib/index.js",
   "scripts": {
