@@ -1,0 +1,29 @@
+{
+  "name": "yl",
+  "version": "0.0.0",
+  "description": "Functional, curry-able loops",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel index.js -d lib",
+    "test": "babel-node test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealklanni/yl.git"
+  },
+  "keywords": [
+    "functional",
+    "while"
+  ],
+  "author": "Kevin Lanni <therealklanni@gmail.com> (https://github.com/therealklanni)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therealklanni/yl/issues"
+  },
+  "homepage": "https://github.com/therealklanni/yl#readme",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "faucet": "0.0.1",
+    "tape": "^4.0.3"
+  }
+}
