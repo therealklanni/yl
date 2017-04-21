@@ -25,5 +25,8 @@
     "babel": "^5.8.21",
     "faucet": "0.0.1",
     "tape": "^4.0.3"
+  },
+  "dependencies": {
+    "ycomb": "^1.0.0"
   }
 }
